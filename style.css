@@ -1,0 +1,28 @@
+body{
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+.contenedor-principal{
+  background-color: #2c3e50;
+  width: 90%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+
+input[type="text"], button{
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+
+}
